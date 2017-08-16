@@ -5,6 +5,9 @@ $body-text: 1rem;   // 100%
 $nav-item: 1.25rem; // 125%
 $sub-header: 1.50rem; // 150%
 $byline: 0.75rem; // 75%
+//colors
+$story: #E6E4BB;
+$story-text: #524F0C;
 
 // margin sizes for headlines
 $headline-margin: 5px;
@@ -12,6 +15,7 @@ $headline-margin: 5px;
 // font variables!
 $sans-serif: 'Open Sans', sans-serif;
 $serif: 'Slabo 27px', serif;
+$story-title: 'Cookie', cursive;
 
 
 body {
@@ -27,6 +31,7 @@ h1 {
 
 p {
   font-size: $body-text;
+  font-family: $sans-serif;
 }
 
 nav li {
@@ -41,4 +46,19 @@ h2 {
 
 figcaption {
   font-size: $byline;
+}
+h3 {
+  color: $story-text;
+  font-size: $sub-header;
+  font-family: $story-title;
+}
+.story {
+  font-family: $sans-serif;
+  color: $story-text;
+  background-color: $story;
+}
+#oldpages {
+  background-color: $story;
+  padding: 20px;
+  text-align: center;
 }

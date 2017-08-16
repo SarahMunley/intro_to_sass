@@ -8,7 +8,8 @@ h1 {
   margin: 5px; }
 
 p {
-  font-size: 1rem; }
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif; }
 
 nav li {
   font-size: 1.25rem; }
@@ -20,5 +21,20 @@ h2 {
 
 figcaption {
   font-size: 0.75rem; }
+
+h3 {
+  color: #524F0C;
+  font-size: 1.5rem;
+  font-family: "Cookie", cursive; }
+
+.story {
+  font-family: "Open Sans", sans-serif;
+  color: #524F0C;
+  background-color: #E6E4BB; }
+
+#oldpages {
+  background-color: #E6E4BB;
+  padding: 20px;
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
